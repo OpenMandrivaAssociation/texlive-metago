@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/metago
+# catalog-date 2008-09-08 11:32:46 +0200
+# catalog-license lppl
+# catalog-version 0.9
 Name:		texlive-metago
 Version:	0.9
 Release:	1
@@ -51,6 +57,7 @@ produce several images).
 %doc %{_texmfdistdir}/doc/metapost/metago/example-script-8.pdf
 %doc %{_texmfdistdir}/doc/metapost/metago/example-script.mp
 %doc %{_texmfdistdir}/doc/metapost/metago/script.go
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ produce several images).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
