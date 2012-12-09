@@ -58,3 +58,17 @@ produce several images).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.9-2
++ Revision: 753856
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.9-1
++ Revision: 718995
+- texlive-metago
+- texlive-metago
+- texlive-metago
+- texlive-metago
+
