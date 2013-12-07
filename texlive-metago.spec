@@ -6,7 +6,7 @@
 # catalog-version 0.9
 Name:		texlive-metago
 Version:	0.9
-Release:	3
+Release:	4
 Summary:	MetaPost output of Go positions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/metago
