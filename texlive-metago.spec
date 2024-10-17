@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	MetaPost output of Go positions
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/metago
+URL:		https://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/metago
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/metago.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/metago.doc.r%{version}.tar.xz
